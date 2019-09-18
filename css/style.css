@@ -758,11 +758,54 @@ body {
 .composition__item-inner {
     width: 270px;
     height: 270px;
-    background-image: url(../images/comp-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
     position: relative;
+}
+
+.composition__item-inner-bg-1 {
+    background-image: url(../images/comp-1.png);
+}
+
+.composition__item-inner-bg-2 {
+    background-image: url(../images/comp-2.png);
+}
+
+.composition__item-inner-bg-3 {
+    background-image: url(../images/comp-3.png);
+}
+
+.composition__item-inner-bg-4 {
+    background-image: url(../images/comp-4.png);
+}
+
+.composition__item-inner-bg-5 {
+    background-image: url(../images/comp-5.png);
+}
+
+.composition__item-inner-bg-6 {
+    background-image: url(../images/comp-6.png);
+}
+
+.composition__item-inner-bg-7 {
+    background-image: url(../images/comp-7.png);
+}
+
+.composition__item-inner-bg-8 {
+    background-image: url(../images/comp-8.png);
+}
+
+.composition__item-inner-bg-9 {
+    background-image: url(../images/comp-9.png);
+}
+
+.composition__item-inner-bg-10 {
+    background-image: url(../images/comp-10.png);
+}
+
+.composition__item-inner-bg-11 {
+    background-image: url(../images/comp-11.png);
 }
 
 .composition__item-number,
@@ -789,6 +832,14 @@ body {
     width: 0;
     white-space: nowrap;
     height: 0;
+}
+
+.composition__item__subtitle {
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 116px 103px 60px 50px;
 }
 
 .composition__item-effect {
@@ -869,6 +920,7 @@ body {
     max-width: 830px;
     height: 100%;
     position: relative;
+    margin-left: 15px;
 }
 
 .composition__link-text {
