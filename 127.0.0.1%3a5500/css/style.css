@@ -764,6 +764,50 @@ body {
     position: relative;
 }
 
+.composition__item-inner-bg-1 {
+    background-image: url(../images/comp-1.png);
+}
+
+.composition__item-inner-bg-2 {
+    /* background-image: url(../images/comp-2.png); */
+}
+
+.composition__item-inner-bg-3 {
+    background-image: url(../images/comp-3.png);
+}
+
+.composition__item-inner-bg-4 {
+    background-image: url(../images/comp-4.png);
+}
+
+.composition__item-inner-bg-5 {
+    background-image: url(../images/comp-5.png);
+}
+
+.composition__item-inner-bg-6 {
+    background-image: url(../images/comp-6.png);
+}
+
+.composition__item-inner-bg-7 {
+    background-image: url(../images/comp-7.png);
+}
+
+.composition__item-inner-bg-8 {
+    background-image: url(../images/comp-8.png);
+}
+
+.composition__item-inner-bg-9 {
+    background-image: url(../images/comp-9.png);
+}
+
+.composition__item-inner-bg-10 {
+    background-image: url(../images/comp-10.png);
+}
+
+.composition__item-inner-bg-11 {
+    background-image: url(../images/comp-11.png);
+}
+
 .composition__item-number,
 .composition__item-name {
     font-size: 14px;
