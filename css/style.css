@@ -105,7 +105,7 @@ body {
     width: 100%;
 }
 
-.top__inner-subtitle {
+.top__inner-suptitle {
     margin-top: 70px;
     margin-bottom: 25px;
     font-size: 14px;
@@ -117,6 +117,7 @@ body {
 
 .top__inner-title {
     font-size: 60px;
+    line-height: 60px;
     margin-bottom: 40px;
     font-weight: 600;
     color: #fff;
@@ -127,6 +128,10 @@ body {
     color: #fff;
     font-size: 18px;
     line-height: 24px;
+}
+
+.mobile__link-btn {
+    display: none;
 }
 
 .top-form {
@@ -550,7 +555,7 @@ body {
 .composition__link-btn,
 .reviews__link-popup,
 .build__link,
-.certificate__link {
+.certificate__link. .mobile__link-btn {
     padding: 22px 85px 22px 27px;
     outline: none;
     color: #fff;
@@ -568,7 +573,8 @@ body {
 .composition__link-btn::after,
 .reviews__link-popup::after,
 .build__link::after,
-.certificate__link::after {
+.certificate__link::after,
+.mobile__link-btn::after {
     content: '';
     background-image: url(../images/arrow-right.png);
     height: 9px;
