@@ -499,6 +499,10 @@ body {
     justify-content: flex-end;
 }
 
+.mobile-bg {
+    display: none;
+}
+
 .popularity__right {
     max-width: 500px;
     padding-right: 15px;
@@ -556,8 +560,9 @@ body {
 .composition__link-btn,
 .reviews__link-popup,
 .build__link,
-.certificate__link. .mobile__link-btn {
-    padding: 22px 85px 22px 27px;
+.certificate__link,
+.mobile__link-btn {
+    padding: 22px 84px 22px 27px;
     outline: none;
     color: #fff;
     font-size: 14px;
@@ -574,8 +579,7 @@ body {
 .composition__link-btn::after,
 .reviews__link-popup::after,
 .build__link::after,
-.certificate__link::after,
-.mobile__link-btn::after {
+.certificate__link::after {
     content: '';
     background-image: url(../images/arrow-right.png);
     height: 9px;
