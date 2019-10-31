@@ -4,6 +4,12 @@
         padding-left: 15px;
         padding-right: 0;
     }
+    .history__form {
+        margin-left: 0;
+    }
+    .history__wrapper {
+        background-size: 50%;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -45,6 +51,49 @@
     }
     .popularity__box-text {
         margin-right: 0;
+    }
+    .history {
+        background-color: #f6f9f3;
+        padding-top: 160px;
+    }
+    .history .contaner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .history__wrapper {
+        background-image: none;
+        min-height: 0;
+    }
+    .history__text {
+        max-width: 100%;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .history__title {
+        text-align: center;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .history__form {
+        max-width: 100%;
+        background-color: #fff;
+        padding-top: 30px;
+        padding-bottom: 142px;
+        padding-left: 45px;
+        padding-right: 50%;
+        position: relative;
+    }
+    .history__form::after {
+        content: '';
+        width: 355px;
+        height: 420px;
+        background-image: url(../images/history-img.jpg);
+        position: absolute;
+        right: 15px;
+        top: -25px;
+        background-size: cover;
     }
 }
 
@@ -195,6 +244,19 @@
     .popularity__right {
         max-width: 540px;
     }
+    .history__title {
+        max-width: 460px;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .history__text {
+        padding-top: 10px;
+    }
+    .history__form {
+        padding-right: 57%;
+    }
 }
 
 @media (max-width: 760px) {
@@ -214,6 +276,21 @@
 @media (max-width: 700px) {
     .header__text {
         display: none;
+    }
+    .history__title {
+        padding-top: 0;
+    }
+    .history__form {
+        padding-right: 45px;
+        padding-top: 400px;
+        padding-bottom: 50px;
+    }
+    .history__form::after {
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 385px;
     }
 }
 
@@ -398,6 +475,13 @@
         text-align: center;
         border: none;
     }
+    .history__form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .history__title {
+        padding-top: 155px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -433,6 +517,22 @@
         text-align: center;
     }
     .list__link a::after {
+        display: none;
+    }
+    .history__form {
+        text-align: center;
+    }
+    .history__form input {
+        text-align: center;
+    }
+    .history__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .form__btn {
+        padding: 22px 5px;
+    }
+    .form__btn::after {
         display: none;
     }
 }
