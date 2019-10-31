@@ -95,6 +95,12 @@
         top: -25px;
         background-size: cover;
     }
+    .quote__wrapper,
+    .quote {
+        padding: 0;
+        min-height: 0;
+        background-image: none;
+    }
 }
 
 @media (max-width: 1120px) {
@@ -256,6 +262,7 @@
     }
     .history__form {
         padding-right: 57%;
+        padding-bottom: 135px;
     }
 }
 
@@ -326,6 +333,11 @@
     }
     .popularity__box-link::after {
         display: none;
+    }
+    .quote__inner {
+        border: none;
+        font-size: 20px;
+        line-height: 35px;
     }
 }
 
@@ -481,6 +493,13 @@
     }
     .history__title {
         padding-top: 155px;
+    }
+    .quote__inner {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .author {
+        font-size: 14px;
     }
 }
 
